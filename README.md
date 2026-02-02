@@ -1,45 +1,48 @@
-# 🌏 Myanmar Earthquake Dashboard
+# 📡 Live Earthquake Monitor
 
-A live, interactive data visualization dashboard built with **Streamlit** to monitor and analyze earthquake activity in the **Myanmar region** using real-time data from the **USGS Earthquake API**.
-
----
-
-## 🖥️ Demo
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://myanmar-earthquake-dashboard.streamlit.app/)
+An interactive, real-time **earthquake monitoring dashboard** built with **Streamlit** to visualize seismic activity both in **Myanmar** and globally using live data from the **USGS Earthquake Hazards Program**.
 
 ---
+## 🖥️ Demo App
+<div align="center">
+  <a href="https://myanmar-earthquake-dashboard.streamlit.app/">
+    <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App">
+  </a>
+</div>
+
+![Myanmar Demo](assets/myanmar_demo.png)
+![Global Demo](assets/global_demo.png)
 
 ## 🚀 Features
-
 - 📡 **Live Earthquake Data** (auto-updates every 10 minutes)
-- 🇲🇲 **Myanmar Region Filtering** (latitude & longitude bounds)
-- 📊 **Key Metrics**
-  - Total earthquakes
-  - Strongest magnitude
-  - Average depth
-- 🗺️ **Interactive Epicenter Map**
-- 🔥 **Magnitude vs Date Heatmap**
-- 🎚️ **User Controls**
+- 🌏 **Regional or Global View** — Focus on Myanmar or view worldwide earthquakes.
+- 📊 **Dynamic Visualization Options**:
+  - Epicenter Map: interactive scatter map of earthquake locations by magnitude
+  - Activity Timeline: daily frequency of seismic events
+- 🎚️ **User Controls**:
   - Minimum magnitude filter
-  - Color theme selector
-  - Manual data refresh
-- 🌙 **Dark UI Theme** with custom CSS styling
+  - Color theme selector for maps
+  - Refresh data button for live updates
+- 📈 **Real-Time Metrics**:
+  - Total earthquakes
+  - Maximum magnitude
+  - Average depth
+  - Time since last earthquake
+- 📝 **Insights**:
+  - Region with highest seismic activity in last 24 hours
+  - Activity trend (last 24 hrs vs previous 24 hrs)
+- 🌙 **Dark UI Theme** with custom CSS for a clean, modern look
 
 ---
 
 ## 🧠 Data Source
 
-- **USGS Earthquake API**  
-  https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson
-
+- [**USGS Earthquake API**](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson)
 Data includes:
-- Location
-- Time
-- Magnitude
+- Location (`place`)
+- Magnitude (`mag`)
 - Depth
 - Latitude & Longitude
+- Time (UTC)
 
 ---
-
-
