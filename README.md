@@ -41,3 +41,8 @@ Data includes:
 - Depth
 - Latitude & Longitude
 - Time (UTC)
+
+## 🧭 References
+
+- [**Tutorial Blog from streamlit.io**](https://discuss.streamlit.io/t/building-a-dashboard-in-python-using-streamlit/60621)
+- [**Population Dashboard by dataprofessor**](https://github.com/dataprofessor/population-dashboard)
