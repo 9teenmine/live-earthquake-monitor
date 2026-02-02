@@ -2,10 +2,9 @@
 
 An interactive, real-time **earthquake monitoring dashboard** built with **Streamlit** to visualize seismic activity both in **Myanmar** and globally using live data from the **USGS Earthquake Hazards Program**.
 
----
 ## 🖥️ Demo App
 <div align="center">
-  <a href="https://myanmar-earthquake-dashboard.streamlit.app/">
+  <a href="https://live-earthquake-monitor.streamlit.app/">
     <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App">
   </a>
 </div>
@@ -33,8 +32,6 @@ An interactive, real-time **earthquake monitoring dashboard** built with **Strea
   - Activity trend (last 24 hrs vs previous 24 hrs)
 - 🌙 **Dark UI Theme** with custom CSS for a clean, modern look
 
----
-
 ## 🧠 Data Source
 
 - [**USGS Earthquake API**](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson)
@@ -44,5 +41,3 @@ Data includes:
 - Depth
 - Latitude & Longitude
 - Time (UTC)
-
----
